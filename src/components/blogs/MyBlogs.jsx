@@ -1,6 +1,8 @@
 import React from 'react'
 import { MY_SLIDER_LIST } from '../../utils/helper'
 import Slider from 'react-slick'
+import { NavLink } from 'react-router-dom';
+
 const MyBlogs = () => {
   var settings = {
     dots: true,
@@ -40,7 +42,7 @@ const MyBlogs = () => {
         ))}
       </Slider>
       <button className='mt-8 bg-darkBlue px-3 py-2 rounded-lg ml-2'>
-        <a href="/" className='text-white'>Back to Home</a>
+        <NavLink to="/" className='text-white'>Back to Home</NavLink>
       </button>
     </div>
   )
