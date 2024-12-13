@@ -39,6 +39,9 @@ const MyBlogs = () => {
           </div>
         ))}
       </Slider>
+      <button className='mt-8 bg-darkBlue px-3 py-2 rounded-lg ml-2'>
+        <a href="/" className='text-white'>Back to Home</a>
+      </button>
     </div>
   )
 }
