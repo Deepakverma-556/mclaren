@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-.placeholder-white{
-    color: white;
+.placeholder-white {
+  color: white;
 }
-.slick-list .slick-track{
-    display: flex;
-    gap: 16px;
+.slick-list .slick-track {
+  display: flex;
+  gap: 16px;
 }

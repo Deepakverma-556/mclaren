@@ -13,7 +13,7 @@ const MyBlogs = () => {
     autoplay: true,
     responsive: [
       {
-        breakpoint: 1025,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
           dots: true,

@@ -11,22 +11,22 @@ import Partnership from '../components/Partnership'
 import Gallery from '../components/Gallery'
 import MyFooter from '../components/MyFooter'
 const MyHome
- = () => {
-  return (
-      <>
-          <Hero />
-          <CompanyLogos />
-          <Description />
-          <NeomMclaren />
-          <ZakBrown />
-          <Noboru />
-          <Drivers />
-          <MySlider />
-          <Partnership />
-          <Gallery />
-          <MyFooter />
-      </>
-  )
-}
+    = () => {
+        return (
+            <>
+                <Hero />
+                <CompanyLogos />
+                <Description />
+                <NeomMclaren />
+                <ZakBrown />
+                <Noboru />
+                <Drivers />
+                <MySlider />
+                <Partnership />
+                <Gallery />
+                <MyFooter />
+            </>
+        )
+    }
 
 export default MyHome
