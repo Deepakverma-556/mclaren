@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <section className='bg-blue'>
             <div className='max-w-[1215px] px-4 mx-auto max-lg:pl-8 max-md:px-4'>
-                <div className='flex items-center justify-between pt-11 pb-[22px]  max-md:py-6 max-sm:py-4'>
+                <div className='flex items-center justify-between pt-[27px] pb-4 max-md:py-6 max-sm:py-3'>
                     <a href="/" className='md:hidden'>
                         <img src="/assets/images/webp/nav-logo.webp" alt="nav-logo" className='md:hidden h-[15px]' />
                     </a>
