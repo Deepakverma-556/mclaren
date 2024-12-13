@@ -26,7 +26,7 @@ const Header = () => {
                     <a href="/" className='md:hidden'>
                         <img src="/assets/images/webp/nav-logo.webp" alt="nav-logo" className='md:hidden h-[15px]' />
                     </a>
-                    <ul className='flex items-center gap-6 max-md:hidden'>
+                    <ul className='flex items-center gap-6 md:-mb-6 max-md:hidden'>
                         {HEADER_LINK.map((obj, i) => (
                             <li key={i}><a href={obj.link} className='text-white text-[13px] font-notoSans leading-[15px] relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-[0.2px] after:bg-white '>{obj.title}</a></li>
                         ))}
